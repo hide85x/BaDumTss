@@ -1,0 +1,66 @@
+
+#main {
+    display:flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 500px;
+    width: 920px;
+    position: relative;
+}
+#bg {
+    background-image: url("crowd.jpg");
+    border-radius: 20px;
+    border: 2px solid black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 140px grey
+
+}
+.key:hover {
+    cursor: pointer;
+}
+.playing {
+    transform: scale(1.1);
+    border:2px solid yellow !important;
+    box-shadow: 0 0 20px goldenrod 
+}
+.key {
+    transition: all 0.07s;
+    border:2px solid black;
+    background: rgb(0, 0, 0, 0.5);
+    font-size: 30px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    padding:5px  ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color:whitesmoke
+}
+p {
+    color:gold;
+    font-size: 16px
+}
+h4 {
+    margin-bottom: 150px;
+    text-shadow: 0 0 10px white;
+    opacity: 0.6;
+    font-family: sans-serif;
+    color:white;
+    text-align: center
+}
+body {
+    display: flex;
+    height: 100vh ;
+    flex-direction: column;
+    background: black;
+}
