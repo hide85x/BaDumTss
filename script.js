@@ -28,4 +28,6 @@ keys.forEach(key=> key.addEventListener('click', function(el){
 })
 );
 
+console.log('dupa')
+
 keys.forEach(key => key.addEventListener('transitionend', removeTransistion)); // mamy event list. transistionend
