@@ -14,7 +14,8 @@ h2 {
     margin: auto;
     justify-content: center;
     flex-wrap: wrap;
-    height: 100vh;
+    height: fit-content;
+    width: fit-content;
     position: relative;
 }
 #bg {
@@ -66,4 +67,9 @@ h4 {
     font-family: sans-serif;
     color:white;
     text-align: center
+}
+@media (min-width:700px) {
+    #main {
+        height: 50%
+    }
 }
