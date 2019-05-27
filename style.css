@@ -3,14 +3,18 @@ body {
     height: 100vh ;
     flex-direction: column;
     background: black;
+    text-align: center
 }
-
+h2 {
+    color: aliceblue
+}
 #main {
     display:flex;
     align-items: center;
     margin: auto;
     justify-content: center;
     flex-wrap: wrap;
+    height: 100vh;
     position: relative;
 }
 #bg {
@@ -37,7 +41,7 @@ body {
 }
 .key {
     transition: all 0.07s;
-    border:2px solid black;
+    border:2px solid rgb(255, 255, 255);
     background: rgb(0, 0, 0, 0.5);
     font-size: 30px;
     border-radius: 10px;
@@ -47,6 +51,7 @@ body {
     padding:5px  ;
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     color:whitesmoke
 }
@@ -61,9 +66,4 @@ h4 {
     font-family: sans-serif;
     color:white;
     text-align: center
-}
-@media (min-width:550px) {
-    #main {
-        height:50%
-    }
 }
