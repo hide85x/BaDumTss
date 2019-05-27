@@ -1,11 +1,16 @@
+body {
+    display: flex;
+    height: 100vh ;
+    flex-direction: column;
+    background: black;
+}
 
 #main {
     display:flex;
     align-items: center;
     margin: auto;
     justify-content: center;
-    height: 500px;
-    width: 920px;
+    flex-wrap: wrap;
     position: relative;
 }
 #bg {
@@ -43,7 +48,6 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     color:whitesmoke
 }
 p {
@@ -58,9 +62,8 @@ h4 {
     color:white;
     text-align: center
 }
-body {
-    display: flex;
-    height: 100vh ;
-    flex-direction: column;
-    background: black;
+@media (min-width:550px) {
+    #main {
+        height:50%
+    }
 }
