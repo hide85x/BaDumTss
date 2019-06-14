@@ -1,14 +1,14 @@
 body {
     display: flex;
-    height: 100vh ;
     flex-direction: column;
     background: black;
     text-align: center
 }
 h2 {
     color: aliceblue;
-    margin:0;
-    padding: 0
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin:50px 0;
+    padding: auto
 }
 
 p {
@@ -16,7 +16,7 @@ p {
     font-size: 16px
 }
 h4 {
-    margin-bottom: 150px;
+    margin-bottom: auto;
     text-shadow: 0 0 10px white;
     opacity: 0.6;
     font-family: sans-serif;
@@ -83,8 +83,8 @@ h4 {
        
     }
 }
-@media (max-width:400px) {
+/* @media (max-width:400px) {
     #bg {
         display: none
     }
-}
+} */
