@@ -6,7 +6,22 @@ body {
     text-align: center
 }
 h2 {
-    color: aliceblue
+    color: aliceblue;
+    margin:0;
+    padding: 0
+}
+
+p {
+    color:gold;
+    font-size: 16px
+}
+h4 {
+    margin-bottom: 150px;
+    text-shadow: 0 0 10px white;
+    opacity: 0.6;
+    font-family: sans-serif;
+    color:white;
+    text-align: center
 }
 #main {
     display:flex;
@@ -56,20 +71,13 @@ h2 {
     align-items: center;
     color:whitesmoke
 }
-p {
-    color:gold;
-    font-size: 16px
-}
-h4 {
-    margin-bottom: 150px;
-    text-shadow: 0 0 10px white;
-    opacity: 0.6;
-    font-family: sans-serif;
-    color:white;
-    text-align: center
-}
+
 @media (min-width:700px) {
+    #bg {
+        height: 300px;
+        background-position: center
+    }
     #main {
-        height: 50%
+       
     }
 }
